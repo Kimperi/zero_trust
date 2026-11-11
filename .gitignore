@@ -1,0 +1,15 @@
+.tools/
+.venv/
+__pycache__/
+*.pyc
+artifacts/*
+!artifacts/.gitkeep
+.env
+*.kubeconfig
+*.pem
+*.key
+# Terraform : état local (contient l'inventaire AWS) et plugins téléchargés
+terraform/.terraform/
+*.tfstate
+*.tfstate.*
+terraform/terraform.tfvars
